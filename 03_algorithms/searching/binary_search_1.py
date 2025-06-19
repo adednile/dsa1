@@ -21,9 +21,10 @@ def binary_search_recursive(inputs, target_search, low, high):
 values = sorted([random.randint(1, 100) for _ in range(10)])
 print("Ordered:", values)
 
-
 # values = [2, 4, 6, 8, 10, 12, 14]
 target = int(input("Enter number to search : "))
+
+# start of the function
 result = binary_search_recursive(values, target, 0, len(values) - 1)
 
 # result

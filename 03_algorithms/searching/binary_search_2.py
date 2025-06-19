@@ -6,6 +6,10 @@ def binary_search_iterative(inputs, target):
 
     while low <= high:
         mid = (low + high) // 2
+        
+        print(f"Low {low}")
+        print(f"mid {mid}")
+        print(f"high {high} \n")
 
         if inputs[mid] == target:
             return mid
