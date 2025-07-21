@@ -21,6 +21,7 @@ print(f"  2 in a: {2 in a}")
 
 # False
 print(f"  5 in a: {5 in a}")
+print(f" 5 in b: {5 in b}")
 
 print(f" Length of a: {len(a)}")
 
@@ -31,3 +32,4 @@ nums = [1, 2, 2, 3, 4, 4]
 print(f"The elements: {nums}")
 unique_nums = set(nums)
 print(f"Unique elements: {unique_nums}")
+print(f"Type of unique nums: {type(unique_nums)}")

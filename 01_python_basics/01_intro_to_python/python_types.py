@@ -18,4 +18,4 @@ print(type(nums))
 
 # boolean
 flag = True
-print(type(nums))
+print(type(flag))

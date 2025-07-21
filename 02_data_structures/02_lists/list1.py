@@ -32,8 +32,8 @@ print(f"  After removing 25: {my_list}")
 # del my_list[0]
 # print(f"  After deleting index 0: {my_list}")
 #
-# # Elements from index 1 to 2
-sliced = my_list[1:2]
+# # Elements from index 1 to 3
+sliced = my_list[1:3]
 print(f"  Sliced list [1:3]: {sliced}")
 #
 # # Iterating through the list

@@ -12,7 +12,7 @@ stack.append(60)
 
 print(f"  After pushing : {stack}")
 
-
+#LIFO - Last In, First Out
 popped = stack.pop()
 print(f"  Popped item: {popped}")
 print(f"  Stack after pop: {stack}")

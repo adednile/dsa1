@@ -27,6 +27,8 @@ school = {
 # json
 
 # Nested Dictionary
-print(f"  student1's age: {school['student1']['name']}")
-print(f"  student2's age: {school['student2']['name']}")
+print(f"  student1's name: {school['student1']['name']}")
+print(f"  student2's name: {school['student2']['name']}")
 
+print(f" Student1's age : {school['student1']['age']}")
+print(f" Student2's age : {school['student2']['age']}")

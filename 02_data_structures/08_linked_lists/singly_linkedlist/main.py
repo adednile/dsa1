@@ -10,7 +10,7 @@ if __name__ == '__main__':
     ll.append_at_a_location(15, 1)
     ll.display()
 
-    search_num = int(input("Ennter number to search: "))
+    search_num = int(input("Enter number to search: "))
     index = ll.search(search_num)
     if index != -1:
         print(f"Element {search_num} found at index {index}")

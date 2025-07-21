@@ -3,7 +3,7 @@ class Dog:
         self.new_name = name
 
     def bark(self):
-        print(f" The dogs name is {self.new_name}")
+        print(f" The dog's name is {self.new_name}")
 
 
 mydog = Dog("ABC")
